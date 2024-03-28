@@ -16,5 +16,10 @@ public class UsuarioDto {
 
     private String email;
     private String password;
+
+    @Override
+    public String toString() {
+        return "UsuarioDto{" + "id=" + id + ", username='" + username + '\'' + ", email='" + email + '\'' + ", password='" + password + '\'' + '}';
+    }
     
 }
